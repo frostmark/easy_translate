@@ -16,6 +16,7 @@ module EasyTranslate
 
   class << self
     attr_accessor :api_key
+    attr_accessor :referer
   end
 
 end
